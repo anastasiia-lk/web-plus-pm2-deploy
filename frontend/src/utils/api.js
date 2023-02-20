@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://api.anastasiialk.nomoredomains.work');
+  const api = new Api('https://api.anastasiialk.nomoredomains.work');
 
   export default api;

@@ -18,7 +18,7 @@ app.use(cors({
   origin: [
     'http://api.anastasiialk.nomoredomains.work',
     'https://api.anastasiialk.nomoredomains.work',
-  ]
+  ],
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
